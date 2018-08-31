@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a09f6103-708a-4947-b4e3-3920d0bb9edf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftDev/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftDev/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftDev/OX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftDev/OX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SoftDev/OXTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SoftDev/OXTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,6 +64,26 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1916403254">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="162" />
+          <entry key="txt" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="162" />
+          <entry key="PLAIN_TEXT" value="30" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -71,10 +92,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/OXTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                <state relative-caret-position="-985">
+                  <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#909#910#0" expanded="true" />
+                    <element signature="e#928#929#0" expanded="true" />
+                    <element signature="e#993#994#0" expanded="true" />
+                    <element signature="e#1023#1024#0" expanded="true" />
+                    <element signature="e#1083#1084#0" expanded="true" />
+                    <element signature="e#1113#1114#0" expanded="true" />
+                    <element signature="e#1171#1172#0" expanded="true" />
+                    <element signature="e#1201#1202#0" expanded="true" />
+                    <element signature="e#1362#1363#0" expanded="true" />
+                    <element signature="e#1391#1392#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -84,32 +115,28 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/OX.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#2757#2758#0" expanded="true" />
-                    <element signature="e#2789#2790#0" expanded="true" />
-                    <element signature="e#2823#2824#0" expanded="true" />
-                    <element signature="e#2856#2857#0" expanded="true" />
-                    <element signature="e#2890#2891#0" expanded="true" />
-                    <element signature="e#2923#2924#0" expanded="true" />
-                    <element signature="e#2957#2958#0" expanded="true" />
-                    <element signature="e#2990#2991#0" expanded="true" />
-                    <element signature="e#3027#3028#0" expanded="true" />
-                    <element signature="e#3056#3057#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="176">
+                  <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#1260#1261#0" expanded="true" />
+                    <element signature="e#1309#1310#0" expanded="true" />
+                    <element signature="e#1571#1572#0" expanded="true" />
+                    <element signature="e#1649#1650#0" expanded="true" />
+                    <element signature="e#1688#1689#0" expanded="true" />
+                    <element signature="e#1730#1731#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -133,11 +160,13 @@
       <find>row</find>
       <find>currentPlayer</find>
       <find>printTable</find>
+      <find>put</find>
     </findStrings>
     <replaceStrings>
       <replace>board</replace>
       <replace>player</replace>
       <replace>printBoard</replace>
+      <replace>move</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,9 +177,9 @@
       <list>
         <option value="$PROJECT_DIR$/ox.js" />
         <option value="$PROJECT_DIR$/src/OXTest.java" />
-        <option value="$PROJECT_DIR$/tests/OXTest.java" />
-        <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/src/OX.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
+        <option value="$PROJECT_DIR$/tests/OXTest.java" />
       </list>
     </option>
   </component>
@@ -166,11 +195,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1600" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -394,24 +422,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SoftDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftDev" type="462c0819:PsiDirectoryNode" />
+              <item name="tictactoe-oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tictactoe-oop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SoftDev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftDev" type="462c0819:PsiDirectoryNode" />
+              <item name="tictactoe-oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tictactoe-oop" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tictactoe-oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tictactoe-oop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tictactoe-oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tictactoe-oop" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -421,11 +459,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535682603866" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535696899665" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -453,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OXTest.get">
+  <component name="RunManager" selected="JUnit.OXTest.getBoard">
     <configuration name="OXTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftDev" />
       <option name="PACKAGE_NAME" value="" />
@@ -472,21 +511,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OXTest.initialBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OXTest.getAt0_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftDev" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OXTest" />
-      <option name="METHOD_NAME" value="initialBoard" />
+      <option name="METHOD_NAME" value="getAt0_0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OXTest.moveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OXTest.getBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SoftDev" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OXTest" />
-      <option name="METHOD_NAME" value="moveTest" />
+      <option name="METHOD_NAME" value="getBoard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -504,18 +543,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.OXTest" />
-      <item itemvalue="JUnit.OXTest.initialBoard" />
-      <item itemvalue="JUnit.OXTest.moveTest" />
       <item itemvalue="JUnit.OXTest.switchPlayerTest" />
       <item itemvalue="JUnit.OXTest.get" />
+      <item itemvalue="JUnit.OXTest.getAt0_0" />
+      <item itemvalue="JUnit.OXTest.getBoard" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OXTest.get" />
+        <item itemvalue="JUnit.OXTest.getBoard" />
+        <item itemvalue="JUnit.OXTest.getAt0_0" />
         <item itemvalue="JUnit.OXTest" />
+        <item itemvalue="JUnit.OXTest.get" />
         <item itemvalue="JUnit.OXTest.switchPlayerTest" />
-        <item itemvalue="JUnit.OXTest.moveTest" />
-        <item itemvalue="JUnit.OXTest.initialBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -540,65 +579,71 @@
       <option name="project" value="LOCAL" />
       <updated>1535679784608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add @Tests for testset">
+      <created>1535696880287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535696880287</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OXTest_initialBoard - 2018.08.31 at 04h 06m 26s.xml">
-      <configuration name="OXTest.initialBoard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OXTest_initialBoard - 2018.08.31 at 04h 06m 48s.xml">
-      <configuration name="OXTest.initialBoard" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OXTest_moveTest - 2018.08.31 at 04h 15m 03s.xml">
-      <configuration name="OXTest.moveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OXTest_moveTest - 2018.08.31 at 04h 15m 14s.xml">
-      <configuration name="OXTest.moveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OXTest_moveTest - 2018.08.31 at 04h 15m 21s.xml">
-      <configuration name="OXTest.moveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OXTest_switchPlayerTest - 2018.08.31 at 04h 24m 21s.xml">
-      <configuration name="OXTest.switchPlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OXTest - 2018.08.31 at 04h 29m 37s.xml">
-      <configuration name="OXTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OXTest_get - 2018.08.31 at 04h 29m 56s.xml">
+    <history-entry file="OXTest_get - 2018.08.31 at 12h 57m 46s.xml">
       <configuration name="OXTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OXTest - 2018.08.31 at 04h 30m 32s.xml">
+    <history-entry file="OXTest_get - 2018.08.31 at 12h 58m 26s.xml">
+      <configuration name="OXTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OXTest_get - 2018.08.31 at 13h 12m 38s.xml">
+      <configuration name="OXTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OXTest_get - 2018.08.31 at 13h 21m 25s.xml">
+      <configuration name="OXTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OXTest - 2018.08.31 at 13h 21m 34s.xml">
       <configuration name="OXTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OXTest_get - 2018.08.31 at 04h 30m 50s.xml">
-      <configuration name="OXTest.get" configurationId="JUnit" />
+    <history-entry file="OXTest - 2018.08.31 at 13h 22m 08s.xml">
+      <configuration name="OXTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OXTest - 2018.08.31 at 13h 22m 42s.xml">
+      <configuration name="OXTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OXTest - 2018.08.31 at 13h 23m 23s.xml">
+      <configuration name="OXTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OXTest_getAt0_0 - 2018.08.31 at 13h 23m 42s.xml">
+      <configuration name="OXTest.getAt0_0" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OXTest_getBoard - 2018.08.31 at 13h 24m 54s.xml">
+      <configuration name="OXTest.getBoard" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="10892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1600" height="806" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18176973" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18421052" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5006418" side_tool="true" visible="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="3" sideWeight="0.49935815" visible="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49840087" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49743262" weight="0.32913166" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49946696" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -621,7 +666,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial add constant, getBoard, move, SwitchPlayer, get, printcells" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial add constant, getBoard, move, SwitchPlayer, get, printcells" />
+    <MESSAGE value="add @Tests for testset" />
+    <option name="LAST_COMMIT_MESSAGE" value="add @Tests for testset" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -630,39 +676,45 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ox.js" />
     <entry file="file://$PROJECT_DIR$/src/OXTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/OX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-          <folding>
-            <element signature="e#2757#2758#0" expanded="true" />
-            <element signature="e#2789#2790#0" expanded="true" />
-            <element signature="e#2823#2824#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2890#2891#0" expanded="true" />
-            <element signature="e#2923#2924#0" expanded="true" />
-            <element signature="e#2957#2958#0" expanded="true" />
-            <element signature="e#2990#2991#0" expanded="true" />
-            <element signature="e#3027#3028#0" expanded="true" />
-            <element signature="e#3056#3057#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/OXTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="-985">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1362#1363#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
