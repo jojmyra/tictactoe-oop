@@ -1,28 +1,22 @@
 public class OX {
     // constant for plyaer value
-    public static final int EMPTY = 0;
-    public static final int CROSS = 1;
-    public static final int NOUGHT = 2;
+    private static final int EMPTY = 0;
+    private static final int CROSS = 1;
+    private static final int NOUGHT = 2;
 
     // board setting
-    public static final int ROWS = 3, COLS = 3;
-    public static int[][] board = new int[ROWS][COLS];
+    private static final int ROWS = 3, COLS = 3;
+    private static int[][] board = new int[ROWS][COLS];
 
     // constant for win check
-    public static int CROSS_WIN = 0;
-    public static int NOUGHT_WIN = 0;
-    public static int DRAW_COUNT = 0;
+    private int CROSS_WIN;
+    private int NOUGHT_WIN;
+    private int DRAW_COUNT;
+    private int TURN_COUNT;
 
-
-    // constant game value
-    public static final int PLAYING = 0;
-    public static final int DRAW = 1;
-    public static final int CROSS_WON = 2;
-    public static final int NOUGHT_WON = 3;
 
     // constant for player
-    public static int player = CROSS;
-    public static int currentState = PLAYING;
+    private int player = CROSS;
 
     public OX() {
         for (int i = 0; i < ROWS; i++) {
@@ -30,6 +24,10 @@ public class OX {
                 board[i][j] = EMPTY;
             }
         }
+        CROSS_WIN = 0;
+        NOUGHT_WIN = 0;
+        DRAW_COUNT = 0;
+        TURN_COUNT = 0;
     }
 
     public String getBoard(){
@@ -65,7 +63,7 @@ public class OX {
         return result;
     }
 
-    public static String printCell(int content) {
+    public String printCell(int content) {
         String result="";
         switch (content) {
             case EMPTY:  result = " -"; break;
@@ -75,15 +73,16 @@ public class OX {
         return result;
     }
 
-   public void move(int col, int row){
+   public boolean move(int col, int row){
 
         boolean validate = false;
 
         do {
 
             if (row >= 0 && row < ROWS && col >= 0 && col < COLS && board[row][col] == EMPTY) {
-                board[row][col] = player;  // อัพเดทข้อมูลในอาเรย์
-                validate = true;  // ถ้าข้อมูลถูก ออกจากลูป
+                board[row][col] = player;
+                validate = true;
+
             } else {
                 System.out.println("Wrong move" + (row + 1) + "," + (col + 1)
                         + "). Try again...");
@@ -91,6 +90,20 @@ public class OX {
 
         } while (!validate);
 
+       TURN_COUNT++;
+       if(checkWin(col,row)) {
+           if(player == CROSS) {
+               CROSS_WIN++;
+           } else if(player == NOUGHT) {
+               NOUGHT_WIN++;
+           }
+       }
+
+       if(isDraw()) {
+           DRAW_COUNT++;
+       }
+
+       return true;
    }
 
    public void switchPlayer(){
@@ -109,5 +122,91 @@ public class OX {
 
         return printCell(board[row][col]);
    }
+
+    public int getCROSS_WIN() {
+        return CROSS_WIN;
+    }
+
+    public int getNOUGHT_WIN() {
+        return NOUGHT_WIN;
+    }
+
+    public int getDRAW_COUNT() {
+        return DRAW_COUNT;
+    }
+
+    public int getTURN_COUNT() {
+        return TURN_COUNT;
+    }
+
+    public int getPlayer() {
+        return player;
+    }
+
+    public boolean checkWin(int col, int row) {
+        /* checkColWin */
+        boolean colWin=true;
+        for(int i = 0; i < 3; i++) {
+            if(board[i][col] != player) {
+                colWin=false;
+            }
+        }
+        if(colWin) {
+            return true;
+        }
+        /* checkRowWin */
+        boolean rowWin=true;
+        for(int i = 0; i < 3; i++) {
+            if(board[row][i] != player) {
+                rowWin=false;
+            }
+        }
+        if(rowWin) {
+            return true;
+        }
+
+        /* checkEsWin */
+        boolean esWin = true;
+        for(int i = 0; i < 3; i++) {
+            if(board[i][i] != player) {
+                esWin=false;
+            }
+        }
+        if(esWin) {
+            return true;
+        }
+
+
+        /* checkEsWin */
+        boolean ssWin = true;
+        for(int i = 0; i < 3; i++) {
+            /* col,row -> 2,0, 1,1, 0,2 */
+            /* row,col -> 1,3, 2,2, 3,1 */
+            /* row,col -> i:0 ,i+1,3-i, i:1 2,2, 3,1 */
+            if(board[i][2-i] != player) {
+                ssWin=false;
+            }
+        }
+        if(ssWin) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean isDraw() {
+        if( TURN_COUNT < 9 ) {
+            return false;
+        }
+        return true;
+    }
+
+    public  void reset() {
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLS; j++) {
+                board[i][j] = EMPTY;
+            }
+        }
+        TURN_COUNT = 0;
+    }
 
 }
